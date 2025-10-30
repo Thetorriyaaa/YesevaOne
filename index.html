@@ -2,225 +2,89 @@
 <html lang="ru">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta charset="utf-8" />
-  <title>Yeseva One - Шрифт для трогательных моментов</title>
-  <link rel="stylesheet" href="globals.css" />
-  <link rel="stylesheet" href="styleguide.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Макет Yeseva One</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-  <main class="screen">
-    <div class="ellipse" role="presentation" aria-hidden="true"></div>
-    <p class="text-wrapper">Шрифт, рожденный из каллиграфии и современного <br />почерка для трогательных моментов</p>
-    <h1 class="div">Семейное Древо</h1>
-    <section class="group" aria-label="Семейное древо">
-      <div class="rectangle" role="presentation" aria-hidden="true"></div>
-      <div class="component">
-        <img class="img" src="img/ellipse-3-4.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">A</div>
-      </div>
-      <div class="component-2">
-        <img class="img" src="img/ellipse-3-3.svg" alt="" role="presentation" />
-        <div class="i-e">I &amp; E</div>
-        <div class="text-wrapper-3" aria-hidden="true">&gt;</div>
-        <div class="text-wrapper-4" aria-hidden="true">&gt;</div>
-      </div>
-      <div class="component-3">
-        <img class="img" src="img/ellipse-3-8.svg" alt="" role="presentation" />
-        <div class="text-wrapper-5" aria-hidden="true">&gt;</div>
-        <div class="text-wrapper-6" aria-hidden="true">&gt;</div>
-      </div>
-      <div class="component-4">
-        <img class="img" src="img/ellipse-3-10.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">К</div>
-      </div>
-      <div class="component-5">
-        <img class="img" src="img/ellipse-3-9.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">5</div>
-      </div>
-      <div class="component-6">
-        <img class="img" src="img/ellipse-3-2.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">B</div>
-      </div>
-      <div class="component-7">
-        <img class="img" src="img/ellipse-3.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">D</div>
-      </div>
-      <div class="component-8">
-        <img class="img" src="img/ellipse-3-5.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">E</div>
-      </div>
-      <div class="component-9">
-        <img class="img" src="img/ellipse-3-7.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">Н</div>
-      </div>
-      <div class="component-10">
-        <img class="img" src="img/ellipse-3-6.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">6</div>
-      </div>
-      <div class="component-11">
-        <img class="img" src="img/ellipse-3-12.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">8</div>
-      </div>
-      <div class="component-12">
-        <img class="img" src="img/ellipse-3-11.svg" alt="" role="presentation" />
-        <div class="text-wrapper-2">9</div>
-      </div>
-    </section>
-    <div class="rectangle-2" role="presentation" aria-hidden="true"></div>
-    <h2 class="text-wrapper-7">Меню и типографика</h2>
-    <section class="group-2" aria-label="Меню банкета">
-      <h3 class="text-wrapper-8">Меню банкета</h3>
-      <div class="group-3">
-        <h4 class="text-wrapper-9">Закуски</h4>
-        <p class="text-wrapper-10">Тар-тар из тунца</p>
-        <p class="text-wrapper-11">Салат с киноа</p>
-      </div>
-      <div class="group-4">
-        <h4 class="text-wrapper-12">Основные</h4>
-        <p class="text-wrapper-13">Филе миньон</p>
-        <p class="text-wrapper-14">Рататуй</p>
-      </div>
-      <div class="group-5">
-        <h4 class="text-wrapper-15">Десерты</h4>
-        <p class="text-wrapper-16">Шоколадный фондан</p>
-        <p class="text-wrapper-17">Лимонный сорбет</p>
-      </div>
-    </section>
-    <section class="group-6" aria-label="Типографический приём">
-      <h3 class="text-wrapper-18">Типографический приём</h3>
-      <div class="group-7">
-        <img class="vector" src="img/vector-4.svg" alt="" role="presentation" />
-        <p class="text-wrapper-19">Крупный заголовок</p>
-        <p class="text-wrapper-20">Описание блюда мелким кеглем</p>
-      </div>
-      <div class="group-8">
-        <img class="vector-2" src="img/vector-15.svg" alt="" role="presentation" />
-        <p class="i-e-2">I&amp;E</p>
-      </div>
-    </section>
-    <div class="div-wrapper">
-      <h2 class="text-wrapper-21">Оттенок любви</h2>
+
+  <!-- ВЕРХНИЙ КРУГ -->
+  <div style="
+  position:absolute;
+  top:100px;
+  left:50%;
+  transform:translateX(-50%);
+  width:400px;
+  height:400px;
+  border-radius:50%;
+  background: linear-gradient(135deg, #fdeff4, #f2e3b9);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+">
+    <p style="font-size:24px; margin:0;">Приглашение на презентацию</p>
+    <p style="font-size:64px; margin:10px 0 0 0;">ESL One</p>
+    <p style="font-size:32px; margin:5px 0 0 0;">Ivan & Eva</p>
+  </div>
+
+  <!-- СЕКЦИЯ МАСКИ И ФОНА -->
+  <img src="images/mask-group.png" alt="Mask group" style="top:0; left:0; width:1400px; height:396px;">
+  <img src="images/image1.png" alt="Mask group" style="top:970px; left:0; width:1400px; height:163px;">
+
+  <!-- СЕМЕЙНОЕ ДРЕВО -->
+  <div style="
+  position:absolute;
+  top:1371px;
+  left:50%;
+  transform:translateX(-50%);
+  width:882px;
+  height:627px;
+  background-color:#fdeff4;
+  border-radius:441px/313.5px;
+  border:14px solid #f2e3b9;
+">
+    <div
+      style="position:absolute; top:150px; left:246px; width:394px; height:560px; background:#fdeff4; border-radius:33px;">
     </div>
-    <div class="rectangle-3" role="presentation" aria-hidden="true"></div>
-    <p class="p">Скачать демо-пак | Заказать кастомизацию</p>
-    <div class="yeseva-one">YESEVA ONE</div>
-    <section class="group-9" aria-label="Этапы разработки">
-      <div class="group-10">
-        <h2 class="text-wrapper-22">Этапы</h2>
-      </div>
-      <div class="group-11">
-        <h3 class="text-wrapper-23">2013 — Релиз</h3>
-        <p class="text-wrapper-24">Оптимизация для печати и web</p>
-      </div>
-      <div class="group-12">
-        <h3 class="text-wrapper-25">2012 — Глифы</h3>
-        <p class="text-wrapper-26">Расширение кириллицы и лигатур</p>
-      </div>
-      <div class="group-13">
-        <h3 class="text-wrapper-27">2011 — Эскизы</h3>
-        <p class="text-wrapper-28">Ручные наброски и эксперименты</p>
-      </div>
-    </section>
-    <div class="vector-wrapper"><img class="vector-3" src="img/vector-70.svg" alt="Декоративный элемент" /></div>
-    <img class="vector-4" src="img/vector-71.svg" alt="Декоративный элемент" />
-    <img class="mask-group" src="img/mask-group.png" alt="Декоративное изображение" />
-    <img class="group-14" src="img/group-7.png" alt="Декоративный элемент" />
-    <div class="group-15" aria-hidden="true">
-      <div class="text-wrapper-29">&gt;</div>
-      <div class="text-wrapper-30">&gt;</div>
-      <div class="text-wrapper-31">&gt;</div>
-      <div class="text-wrapper-32">&gt;</div>
-      <div class="text-wrapper-33">&gt;</div>
-      <img class="img-2" src="img/image-8.svg" alt="" role="presentation" />
-      <img class="img-3" src="img/image-6.svg" alt="" role="presentation" />
-      <img class="img-4" src="img/image-11.svg" alt="" role="presentation" />
-      <img class="img-5" src="img/image-9.svg" alt="" role="presentation" />
-    </div>
-    <h2 class="text-wrapper-34">Нежность линий</h2>
-    <p class="text-wrapper-35">В каждом изгибе — дыхание любви, <br />в каждом штрихе — прикосновение вечности.</p>
-    <p class="text-wrapper-36">Этот шрифт создан не для скорости, <br />а для слов, сказанных с чувством.</p>
-    <h3 class="text-wrapper-37">Yeseva One</h3>
-    <p class="text-wrapper-38">Соединяет классику и эмоцию, <br />как встречаются взгляды под звуки вальса.</p>
-    <img class="group-16" src="img/group-3.png" alt="Декоративный элемент" />
-    <div class="text-wrapper-39" aria-hidden="true">D</div>
-    <div class="text-wrapper-40" aria-hidden="true">D</div>
-    <div class="text-wrapper-41" aria-hidden="true">D</div>
-    <div class="text-wrapper-42" aria-hidden="true">D</div>
-    <div class="group-17" aria-hidden="true">
-      <img class="img-6" src="img/image-10.svg" alt="" role="presentation" />
-      <img class="img-6" src="img/image-5.svg" alt="" role="presentation" />
-    </div>
-    <div class="group-18" aria-hidden="true">
-      <img class="img-7" src="img/image-2.svg" alt="" role="presentation" />
-      <img class="img-7" src="img/image-12.svg" alt="" role="presentation" />
-    </div>
-    <p class="text-wrapper-43">Спасибо, что были с нами</p>
-    <img class="mask-group-2" src="img/image.png" alt="Декоративное изображение" />
-    <p class="text-wrapper-44">Шрифт для самых трогательных моментов</p>
-    <p class="text-wrapper-45">Шрифт для самых трогательных моментов</p>
-    <header class="group-19">
-      <h1 class="names">Иван &amp; Ева</h1>
-      <p class="text-wrapper-46">Приглашение <br />на презентацию шрифта</p>
-      <div class="yeseva-one-2" aria-label="YESEVA ONE">
-        <img class="vector-5" src="img/vector-2.svg" alt="Y" />
-        <img class="vector-6" src="img/vector-16.svg" alt="E" />
-        <img class="vector-7" src="img/vector-9.svg" alt="S" />
-        <img class="vector-8" src="img/vector-14.svg" alt="E" />
-        <img class="vector-9" src="img/vector-7.svg" alt="V" />
-        <img class="vector-10" src="img/vector-17.svg" alt="A" />
-        <img class="vector-11" src="img/vector-13.svg" alt="O" />
-        <img class="vector-12" src="img/vector.svg" alt="N" />
-        <img class="vector-13" src="img/vector-5.svg" alt="E" />
-      </div>
-    </header>
-    <img class="vector-14" src="img/vector-10.svg" alt="Декоративный элемент" />
-    <img class="vector-15" src="img/vector-11.svg" alt="Декоративный элемент" />
-    <img class="vector-16" src="img/vector-6.svg" alt="Декоративный элемент" />
-    <img class="vector-17" src="img/vector-8.svg" alt="Декоративный элемент" />
-    <img class="vector-18" src="img/image.svg" alt="Декоративный элемент" />
-    <img class="group-20" src="img/group-49.png" alt="Декоративный элемент" />
-    <div class="yeseva-one-3">YESEVA ONE</div>
-    <div class="group-wrapper" aria-hidden="true">
-      <div class="group-21">
-        <div class="text-wrapper-47">a</div>
-        <div class="text-wrapper-48">a</div>
-      </div>
-    </div>
-    <div class="group-22" aria-hidden="true">
-      <div class="group-21">
-        <div class="text-wrapper-49">a</div>
-        <div class="text-wrapper-50">a</div>
-      </div>
-    </div>
-    <div class="group-23" aria-hidden="true">
-      <div class="text-wrapper-51">s</div>
-    </div>
-    <div class="group-24" aria-hidden="true">
-      <div class="text-wrapper-51">s</div>
-    </div>
-    <div class="group-25" aria-hidden="true">
-      <div class="text-wrapper-52">s</div>
-    </div>
-    <div class="group-26" aria-hidden="true">
-      <div class="text-wrapper-52">s</div>
-    </div>
-    <div class="text-wrapper-53" aria-hidden="true">&gt;</div>
-    <div class="text-wrapper-54" aria-hidden="true">&gt;</div>
-    <div class="text-wrapper-55" aria-hidden="true">&gt;</div>
-    <div class="text-wrapper-56" aria-hidden="true">&gt;</div>
-    <div class="text-wrapper-57" aria-hidden="true">&gt;</div>
-    <p class="div-2"><span class="span">Д</span> <span class="span">емонстрация шрифтовых решений</span></p>
-    <img class="img-8" src="img/image-3.svg" alt="Декоративный элемент" />
-    <img class="img-9" src="img/image-13.svg" alt="Декоративный элемент" />
-    <img class="img-10" src="img/image-7.svg" alt="Декоративный элемент" />
-    <img class="img-11" src="img/image-4.svg" alt="Декоративный элемент" />
-    <img class="vector-19" src="img/vector-12.svg" alt="Декоративный элемент" />
-    <img class="vector-20" src="img/vector-3.svg" alt="Декоративный элемент" />
-    <img class="vector-21" src="img/vector-18.svg" alt="Декоративный элемент" />
-  </main>
+    <!-- corner images -->
+    <img src="images/vector12.svg" style="top:1852px; left:1167px; width:183px; height:183px;">
+    <img src="images/vector13.svg" style="top:1852px; left:54px; width:183px; height:183px;">
+    <img src="images/vector14.svg" style="top:1134px; left:1162px; width:183px; height:183px;">
+    <img src="images/vector15.svg" style="top:1134px; left:54px; width:183px; height:183px;">
+  </div>
+
+  <!-- ТЕКСТ -->
+  <p style="position:absolute; top:1271px; left:283px; font-size:24px; text-align:center;">
+    Шрифт, рожденный из каллиграфии и современного <br>почерка для трогательных моментов
+  </p>
+
+  <div style="position:absolute; top:37%; left:21.29%; width:58.14%; font-size:64px;">
+    Семейное Древо
+  </div>
+
+  <div style="position:absolute; top:54%; left:11.5%; width:77.71%; font-size:64px;">
+    Меню и типографика
+  </div>
+
+  <!-- КАРТИНКИ -->
+  <img src="images/group-3.png" style="top:5264px; left:3px; width:424px; height:346px;">
+  <img src="images/group-7.png" style="top:3689px; left:375px; width:1025px; height:294px;">
+  <img src="images/group-49.png" style="top:5080px; left:1087px; width:312px; height:530px;">
+  <img src="images/image-2.svg" style="top:3196px; left:923px; width:389px; height:193px;">
+  <img src="images/image-3.svg" style="top:3210px; left:54px; width:159px; height:320px;">
+  <img src="images/image-4.svg" style="top:3575px; left:53px; width:159px; height:320px;">
+  <img src="images/image.png" style="top:3294px; left:1220px; width:135px; height:272px;">
+  <img src="images/vector16.svg" style="top:3580px; left:1185px; width:155px; height:155px;">
+  <img src="images/vector18.svg" style="top:1318px; left:1166px; width:183px; height:183px;">
+  <img src="images/vector19.svg" style="top:1318px; left:50px; width:183px; height:183px;">
+
+  <!-- THANK YOU -->
+  <p style="position:absolute; top:4899px; left:85px; font-size:91.4px;">Спасибо, что были с нами</p>
+
 </body>
 
 </html>
