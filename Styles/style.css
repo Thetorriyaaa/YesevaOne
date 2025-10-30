@@ -1,274 +1,39 @@
-/* Общие настройки */
 body {
-    font-family: 'Yeseva One', serif;
-    background-color: #fbfbfb;
-    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fdfcf9;
+    color: #333;
 }
 
-/* Секция семейного дерева */
-.family-tree {
-    position: absolute;
-    top: 1371px;
-    left: 50%;
-    width: 882px;
-    height: 627px;
-    background-color: #fdeff4;
-    border: 14px solid #f2e3b9;
-    border-radius: 441px / 313.5px;
+.invitation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.intro-text {
-    position: absolute;
-    top: 1271px;
-    left: 283px;
-    font-size: 24px;
-    color: #6e3f5b;
+header,
+section,
+footer {
+    margin-bottom: 40px;
     text-align: center;
 }
 
-.title {
-    position: absolute;
-    top: 37%;
-    left: 21.29%;
-    font-size: 64px;
-    color: #6e3f5b;
-}
-/* Секция меню */
-.menu-section {
-    position: relative;
-    font-family: 'Yeseva One', serif;
-    color: #6e3f5b;
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
 }
 
-/* Категории */
-.menu-category {
-    font-size: 2rem;
-    /* text-3xl */
-    position: absolute;
-    /* можно настроить top/left через CSS */
-    font-weight: normal;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* Элементы меню */
-.menu-item {
-    font-size: 1.5rem;
-    /* text-2xl */
-    position: absolute;
-    font-weight: normal;
-}
-
-/* Секция "Оттенок любви" */
-.stages-section {
-    position: relative;
-    font-size: 4rem;
-    /* text-8xl */
-    font-family: 'Yeseva One', serif;
-    color: #6e3f5b;
-}
-
-/* Декоративный блок */
-.decorative-box {
-    position: absolute;
-    top: 5244px;
-    left: 347px;
-    width: 723px;
-    height: 82px;
-    background-color: rgba(242, 228, 229, 0.5);
-    border: 1px solid #6e3f5b;
-    border-radius: 13px;
-}
-
-/* Ссылка на демо-пак */
-.demo-link {
-    font-size: 1.75rem;
-    /* text-3xl */
-    text-align: center;
-    -webkit-text-stroke: 0.87px #6e3f5b;
-    font-family: 'Yeseva One', serif;
-    color: #6e3f5b;
-    position: absolute;
-    top: 93.92%;
-    left: 25.07%;
-}
-
-/* Логотип / текст YESEVA ONE */
-.logo-text {
-    font-size: 2rem;
-    /* text-4xl */
-    text-align: center;
-    font-family: 'Yeseva One', serif;
-    color: #6e3f5b;
-    position: absolute;
-    top: 21.48%;
-    left: 41.79%;
-}
-body {
-    font-family: 'Yeseva One', serif;
-    background-color: #fbfbfb;
-    overflow-x: hidden;
-    color: #6e3f5b;
-}
-
-/* Декоративные SVG */
-.decor-vector {
-    position: absolute;
-    width: auto;
-    height: auto;
-}
-
-/* Фоновая маска */
-.mask-group {
-    position: absolute;
-    width: 1400px;
-    height: 396px;
-}
-
-/* Группы изображений */
-.group {
-    position: absolute;
-    width: auto;
-    height: auto;
-}
-
-/* Заголовки и тексты */
-.section-title {
-    font-size: 2rem;
-    /* text-4xl */
-    text-align: center;
-    font-family: 'Yeseva One', serif;
-}
-
-.section-subtitle {
-    font-size: 2rem;
-    /* text-4xl */
-    text-align: center;
-}
-
-.section-text {
-    font-size: 1.5rem;
-    /* text-3xl */
-    text-align: center;
-}
-
-/* Декоративные буквы */
-.decor-letter {
-    font-family: 'Ornament-Regular', Helvetica;
-    font-size: 150px;
-    color: #8eae6e;
-    text-align: center;
-    position: absolute;
-}
-
-/* Ряды изображений */
-.image-row {
-    display: flex;
-    gap: 20px;
-    /* расстояние между изображениями */
-    position: absolute;
-}
-
-/* Большая надпись благодарности */
-.thank-you {
-    font-size: 91.4px;
-    text-align: center;
-}
-
-/* Заключительные тексты */
-.final-text {
-    font-size: 1.5rem;
-    text-align: center;
-}
-/* Угловые декоративные изображения */
-.corner-images img {
-    position: absolute;
-    width: 183px;
-    height: 183px;
-}
-
-/* Логотип YESEVA ONE */
-.logo-text {
-    position: absolute;
-    width: 15.93%;
-    top: 90.25%;
-    left: 42.57%;
-    font-family: 'Yeseva One', serif;
-    font-size: 2rem;
-    /* text-4xl */
-    text-align: center;
-    color: #6e3f5b;
-}
-
-/* Большие буквы "a" и "s" */
-.decor-letter {
-    position: absolute;
-    font-family: 'Yeseva One', serif;
-    font-size: 9rem;
-    /* text-9xl */
-    color: #6e3f5b;
-    text-align: center;
-}
-
-.a-letter {
-    width: 65%;
-    height: 74%;
-}
-
-.s-letter {
-    width: 75px;
-    height: 136px;
-}
-
-.rotate-180 {
-    transform: rotate(180deg);
-}
-
-.-rotate-180 {
-    transform: rotate(-180deg);
-}
-
-/* Стрелки Ornament */
-.ornament-arrow {
-    position: absolute;
-    font-family: 'Ornament-Regular', serif;
-    font-size: 150px;
-    color: #8eae6e;
-    text-align: center;
-}
-
-.ornament-arrow.rotate-180 {
-    transform: rotate(180deg);
-}
-/* Текст демонстрации шрифтов */
-.font-demo {
-    position: absolute;
-    top: 3150px;
-    left: 417px;
-    font-family: 'Yeseva One', serif;
-    font-size: 1.75rem;
-    /* text-3xl */
-    color: #6e3f5b;
-    white-space: nowrap;
-}
-
-.font-demo .letter-d {
-    font-family: 'Yeseva One', serif;
-    font-size: 1.75rem;
-}
-
-.font-demo .text-demo {
-    font-family: 'Yeseva One', serif;
-    font-size: 1.75rem;
-}
-
-/* Изображения */
-.decor-img {
-    position: absolute;
-    width: auto;
-    height: auto;
-}
-
-.corner-img {
-    position: absolute;
-    width: 183px;
-    height: 183px;
+ul li {
+    margin: 6px 0;
 }
