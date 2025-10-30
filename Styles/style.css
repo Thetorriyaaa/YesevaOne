@@ -1,5 +1,6 @@
 .screen {
     background-color: #fbfbfb;
+    overflow: hidden;
     width: 100%;
     min-width: 1400px;
     height: 5610px;
@@ -779,15 +780,22 @@
     line-height: normal;
 }
 
-.screen .group-14 {
+.screen .vector-wrapper {
     position: absolute;
     top: 5382px;
     left: 130px;
     width: 329px;
-    height: 228px;
+    height: 351px;
+    display: flex;
 }
 
 .screen .vector-3 {
+    width: 329.41px;
+    height: 228.18px;
+    margin-left: 0;
+}
+
+.screen .vector-4 {
     position: absolute;
     top: 5230px;
     left: 0;
@@ -803,7 +811,7 @@
     height: 396px;
 }
 
-.screen .group-15 {
+.screen .group-14 {
     position: absolute;
     top: 3689px;
     left: 375px;
@@ -811,7 +819,7 @@
     height: 294px;
 }
 
-.screen .group-16 {
+.screen .group-15 {
     position: absolute;
     top: 0;
     left: 54px;
@@ -991,7 +999,7 @@
     line-height: normal;
 }
 
-.screen .group-17 {
+.screen .group-16 {
     position: absolute;
     top: 5264px;
     left: 3px;
@@ -1057,7 +1065,7 @@
     white-space: nowrap;
 }
 
-.screen .group-18 {
+.screen .group-17 {
     position: absolute;
     top: 1521px;
     left: 91px;
@@ -1072,7 +1080,7 @@
     height: 312px;
 }
 
-.screen .group-19 {
+.screen .group-18 {
     position: absolute;
     top: 4249px;
     left: 54px;
@@ -1139,7 +1147,7 @@
     line-height: normal;
 }
 
-.screen .group-20 {
+.screen .group-19 {
     position: absolute;
     width: 77.64%;
     height: 5.89%;
@@ -1187,67 +1195,68 @@
     display: flex;
 }
 
-.screen .vector-4 {
+.screen .vector-5 {
     margin-top: 1.9px;
     width: 85.4px;
     height: 88.56px;
+    margin-left: 0;
 }
 
-.screen .vector-5 {
+.screen .vector-6 {
     margin-top: 1.9px;
     width: 70.21px;
     height: 88.56px;
     margin-left: 43.0px;
 }
 
-.screen .vector-6 {
+.screen .vector-7 {
     width: 67.68px;
     height: 92.35px;
     margin-left: 47.4px;
 }
 
-.screen .vector-7 {
+.screen .vector-8 {
     margin-top: 1.9px;
     width: 70.21px;
     height: 88.56px;
     margin-left: 47.4px;
 }
 
-.screen .vector-8 {
+.screen .vector-9 {
     margin-top: 1.9px;
     width: 89.19px;
     height: 89.82px;
     margin-left: 40.4px;
 }
 
-.screen .vector-9 {
+.screen .vector-10 {
     margin-top: 0.6px;
     width: 91.09px;
     height: 89.82px;
     margin-left: 20.3px;
 }
 
-.screen .vector-10 {
+.screen .vector-11 {
     width: 82.23px;
     height: 92.35px;
     margin-left: 77.8px;
 }
 
-.screen .vector-11 {
+.screen .vector-12 {
     margin-top: 1.9px;
     width: 86.66px;
     height: 90.46px;
     margin-left: 47.5px;
 }
 
-.screen .vector-12 {
+.screen .vector-13 {
     margin-top: 1.9px;
     width: 70.21px;
     height: 88.56px;
     margin-left: 46.2px;
 }
 
-.screen .vector-13 {
+.screen .vector-14 {
     position: absolute;
     top: 1852px;
     left: 1167px;
@@ -1255,7 +1264,7 @@
     height: 183px;
 }
 
-.screen .vector-14 {
+.screen .vector-15 {
     position: absolute;
     top: 1852px;
     left: 54px;
@@ -1263,7 +1272,7 @@
     height: 183px;
 }
 
-.screen .vector-15 {
+.screen .vector-16 {
     position: absolute;
     top: 1134px;
     left: 1162px;
@@ -1271,7 +1280,7 @@
     height: 184px;
 }
 
-.screen .vector-16 {
+.screen .vector-17 {
     position: absolute;
     top: 1134px;
     left: 54px;
@@ -1279,7 +1288,7 @@
     height: 184px;
 }
 
-.screen .vector-17 {
+.screen .vector-18 {
     position: absolute;
     top: 4665px;
     left: 611px;
@@ -1287,7 +1296,7 @@
     height: 184px;
 }
 
-.screen .group-21 {
+.screen .group-20 {
     position: absolute;
     top: 5080px;
     left: 1087px;
@@ -1311,15 +1320,53 @@
     white-space: nowrap;
 }
 
-.screen .group-22 {
+.screen .group-wrapper {
     position: absolute;
     width: 116px;
     height: 200px;
     top: 2041px;
     left: 1185px;
+    display: flex;
 }
 
-.screen .group-wrapper {
+.screen .group-21 {
+    flex: 1;
+    width: 120px;
+    position: relative;
+}
+
+.screen .text-wrapper-47 {
+    width: 65.00%;
+    height: 74.00%;
+    top: 0;
+    left: 0;
+    font-size: 128px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-weight: 400;
+    color: #6e3f5b;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-48 {
+    width: 65.00%;
+    height: 74.00%;
+    top: 26.00%;
+    left: 31.67%;
+    transform: rotate(180deg);
+    font-size: 128px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-weight: 400;
+    color: #6e3f5b;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .group-22 {
     position: absolute;
     width: 116px;
     height: 200px;
@@ -1329,13 +1376,7 @@
     transform: rotate(180deg);
 }
 
-.screen .group-23 {
-    flex: 1;
-    width: 120px;
-    position: relative;
-}
-
-.screen .text-wrapper-47 {
+.screen .text-wrapper-49 {
     width: 65.00%;
     height: 74.00%;
     top: 26.00%;
@@ -1350,7 +1391,7 @@
     line-height: normal;
 }
 
-.screen .text-wrapper-48 {
+.screen .text-wrapper-50 {
     width: 65.00%;
     height: 74.00%;
     top: 0;
@@ -1366,7 +1407,7 @@
     line-height: normal;
 }
 
-.screen .group-24 {
+.screen .group-23 {
     position: absolute;
     top: 956px;
     left: 1230px;
@@ -1375,7 +1416,7 @@
     display: flex;
 }
 
-.screen .text-wrapper-49 {
+.screen .text-wrapper-51 {
     transform: rotate(180deg);
     width: 75px;
     height: 136.24px;
@@ -1388,7 +1429,7 @@
     white-space: nowrap;
 }
 
-.screen .group-25 {
+.screen .group-24 {
     position: absolute;
     top: 956px;
     left: 165px;
@@ -1397,7 +1438,7 @@
     display: flex;
 }
 
-.screen .group-26 {
+.screen .group-25 {
     position: absolute;
     top: 956px;
     left: 1184px;
@@ -1407,7 +1448,7 @@
     transform: rotate(180deg);
 }
 
-.screen .text-wrapper-50 {
+.screen .text-wrapper-52 {
     transform: rotate(-180deg);
     width: 75px;
     height: 136.24px;
@@ -1420,7 +1461,7 @@
     white-space: nowrap;
 }
 
-.screen .group-27 {
+.screen .group-26 {
     position: absolute;
     top: 956px;
     left: 119px;
@@ -1430,41 +1471,12 @@
     transform: rotate(180deg);
 }
 
-.screen .text-wrapper-51 {
-    position: absolute;
-    top: 2273px;
-    left: 41px;
-    width: 261px;
-    transform: rotate(180deg);
-    font-family: "Ornament-Regular", Helvetica;
-    color: #8eae6e;
-    font-size: 150px;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.screen .text-wrapper-52 {
-    position: absolute;
-    top: 2742px;
-    left: 41px;
-    width: 261px;
-    transform: rotate(180deg);
-    font-family: "Ornament-Regular", Helvetica;
-    color: #8eae6e;
-    font-size: 150px;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
 .screen .text-wrapper-53 {
     position: absolute;
     top: 2273px;
-    left: 1112px;
+    left: 41px;
     width: 261px;
+    transform: rotate(180deg);
     font-family: "Ornament-Regular", Helvetica;
     color: #8eae6e;
     font-size: 150px;
@@ -1477,6 +1489,21 @@
 .screen .text-wrapper-54 {
     position: absolute;
     top: 2742px;
+    left: 41px;
+    width: 261px;
+    transform: rotate(180deg);
+    font-family: "Ornament-Regular", Helvetica;
+    color: #8eae6e;
+    font-size: 150px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-55 {
+    position: absolute;
+    top: 2273px;
     left: 1112px;
     width: 261px;
     font-family: "Ornament-Regular", Helvetica;
@@ -1488,7 +1515,21 @@
     line-height: normal;
 }
 
-.screen .text-wrapper-55 {
+.screen .text-wrapper-56 {
+    position: absolute;
+    top: 2742px;
+    left: 1112px;
+    width: 261px;
+    font-family: "Ornament-Regular", Helvetica;
+    color: #8eae6e;
+    font-size: 150px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .text-wrapper-57 {
     position: absolute;
     top: 2297px;
     left: 825px;
@@ -1556,7 +1597,7 @@
     height: 272px;
 }
 
-.screen .vector-18 {
+.screen .vector-19 {
     position: absolute;
     top: 3580px;
     left: 1185px;
@@ -1564,7 +1605,7 @@
     height: 155px;
 }
 
-.screen .vector-19 {
+.screen .vector-20 {
     position: absolute;
     top: 1318px;
     left: 50px;
@@ -1572,7 +1613,7 @@
     height: 183px;
 }
 
-.screen .vector-20 {
+.screen .vector-21 {
     position: absolute;
     top: 1318px;
     left: 1166px;
