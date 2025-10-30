@@ -1,0 +1,32 @@
+/* Подключаем шрифты */
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('../fonts/Yeseva-One-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ornament';
+    src: url('../fonts/Ornament-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Основной стиль */
+body {
+    font-family: 'Yeseva One', sans-serif;
+    background-color: #fbfbfb;
+    color: #6e3f5b;
+    margin: 0;
+    padding: 0;
+}
+
+/* Декоративные буквы */
+.decor-letter {
+    font-family: 'Ornament', sans-serif;
+    font-size: 150px;
+    color: #8eae6e;
+    position: absolute;
+    text-align: center;
+}
