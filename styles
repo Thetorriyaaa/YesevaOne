@@ -1,0 +1,187 @@
+/* ===========================
+   Подключение шрифтов
+   =========================== */
+
+/* Основной шрифт Yeseva One */
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('../fonts/Yeseva-One-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Декоративный шрифт Ornament */
+@font-face {
+  font-family: 'Ornament-Regular';
+  src: url('../fonts/Ornament-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ===========================
+   Общие стили
+   =========================== */
+
+body {
+  font-family: 'Yeseva One', serif;
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+  color: #6e3f5b;
+  overflow-x: hidden;
+}
+
+/* ===========================
+   Секция Семейное Древо
+   =========================== */
+
+.family-tree {
+  position: relative;
+}
+
+.intro-text {
+  position: absolute;
+  top: 1271px;
+  left: 283px;
+  font-size: 1.875rem; /* 3xl */
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  top: 37%;
+  left: 21.29%;
+  font-size: 8rem; /* 8xl */
+  white-space: nowrap;
+}
+
+/* ===========================
+   Секция Меню
+   =========================== */
+
+.menu-section {
+  position: relative;
+}
+
+.menu-category {
+  font-size: 2rem; /* 4xl */
+  font-weight: normal;
+}
+
+.menu-item {
+  font-size: 1.5rem; /* 2xl */
+  font-weight: normal;
+}
+
+/* ===========================
+   Секция Оттенок любви
+   =========================== */
+
+.stages-section h2 {
+  font-size: 8rem; /* 8xl */
+  text-align: center;
+}
+
+/* ===========================
+   Декоративные блоки и логотип
+   =========================== */
+
+.decorative-box {
+  position: absolute;
+  top: 5244px;
+  left: 347px;
+  width: 723px;
+  height: 82px;
+  background-color: rgba(242, 228, 229, 0.5);
+  border: 1px solid #6e3f5b;
+  border-radius: 13px;
+}
+
+.demo-link {
+  position: absolute;
+  top: 93.92%;
+  left: 25.07%;
+  font-size: 1.875rem; /* 3xl */
+  text-align: center;
+  -webkit-text-stroke: 0.87px #6e3f5b;
+}
+
+.logo-text {
+  position: absolute;
+  top: 21.48%;
+  left: 41.79%;
+  font-size: 2.25rem; /* 4xl */
+  text-align: center;
+}
+
+/* ===========================
+   Изображения
+   =========================== */
+
+.decor-vector, .decor-img, .group, .mask-group, .corner-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+/* ===========================
+   Демонстрация шрифтов
+   =========================== */
+
+.font-demo {
+  position: absolute;
+  top: 3150px;
+  left: 417px;
+  font-size: 1.875rem; /* 3xl */
+  white-space: nowrap;
+}
+
+.font-demo .letter-d,
+.font-demo .text-demo {
+  font-family: 'Yeseva One', serif;
+  font-size: 1.875rem;
+}
+
+/* ===========================
+   Декоративные буквы
+   =========================== */
+
+.decor-letter {
+  position: absolute;
+  font-size: 9rem; /* 9xl */
+  text-align: center;
+}
+
+.a-letter {
+  width: 65%;
+  height: 74%;
+}
+
+.s-letter {
+  width: 75px;
+  height: 136px;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-180 {
+  transform: rotate(-180deg);
+}
+
+/* ===========================
+   Стрелки Ornament
+   =========================== */
+
+.ornament-arrow {
+  position: absolute;
+  font-family: 'Ornament-Regular', serif;
+  font-size: 150px;
+  color: #8eae6e;
+  text-align: center;
+}
+
+.ornament-arrow.rotate-180 {
+  transform: rotate(180deg);
+}
