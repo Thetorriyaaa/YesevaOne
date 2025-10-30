@@ -1,32 +1,937 @@
-/* Подключаем шрифты */
-@font-face {
-    font-family: 'Yeseva One';
-    src: url('../fonts/Yeseva-One-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Ornament';
-    src: url('../fonts/Ornament-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Основной стиль */
-body {
-    font-family: 'Yeseva One', sans-serif;
+.screen {
     background-color: #fbfbfb;
-    color: #6e3f5b;
-    margin: 0;
-    padding: 0;
+    height: 5610px;
+    min-width: 1400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
-/* Декоративные буквы */
-.decor-letter {
-    font-family: 'Ornament', sans-serif;
-    font-size: 150px;
-    color: #8eae6e;
+.screen .ellipse-3 {
+    background-color: #fdeff4;
+    border: 14px solid;
+    border-color: #f2e3b9;
+    border-radius: 441px / 313.5px;
+    height: 627px;
+    left: calc(50.00% - 434px);
+    position: absolute;
+    top: 1371px;
+    width: 882px;
+}
+
+.screen .text-wrapper-20 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 283px;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
     text-align: center;
+    top: 1271px;
+}
+
+.screen .text-wrapper-21 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 0;
+    left: 21.29%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 37.01%;
+    white-space: nowrap;
+    width: 58.14%;
+}
+
+.screen .rectangle-2 {
+    background-color: #fdeff4;
+    border-radius: 33px;
+    height: 560px;
+    left: 246px;
+    position: absolute;
+    top: 3265px;
+    width: 394px;
+}
+
+.screen .text-wrapper-22 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 0;
+    left: 11.50%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54.01%;
+    white-space: nowrap;
+    width: 77.71%;
+}
+
+.screen .group-8 {
+    height: 421px;
+    left: 305px;
+    position: absolute;
+    top: 3328px;
+    width: 307px;
+}
+
+.screen .text-wrapper-23 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 274px;
+}
+
+.screen .group-9 {
+    height: 23.98%;
+    left: 11.73%;
+    position: absolute;
+    top: 15.43%;
+    width: 71.66%;
+}
+
+.screen .text-wrapper-24 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 34.65%;
+    left: 19.55%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 57.73%;
+}
+
+.screen .text-wrapper-25 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 27.72%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 45.54%;
+    white-space: nowrap;
+    width: 97.27%;
+}
+
+.screen .text-wrapper-26 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 27.72%;
+    left: 8.64%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 72.28%;
+    white-space: nowrap;
+    width: 80.00%;
+}
+
+.screen .group-10 {
+    height: 23.74%;
+    left: 19.54%;
+    position: absolute;
+    top: 45.58%;
+    width: 81.76%;
+}
+
+.screen .text-wrapper-27 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 35.00%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 63.35%;
+}
+
+.screen .text-wrapper-28 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 28.00%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 46.00%;
+    width: 97.61%;
+}
+
+.screen .text-wrapper-29 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 28.00%;
+    left: 12.75%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 72.00%;
+    white-space: nowrap;
+    width: 40.24%;
+}
+
+.screen .group-11 {
+    height: 24.50%;
+    left: 0;
+    position: absolute;
+    top: 75.50%;
+    width: 90.55%;
+}
+
+.screen .text-wrapper-30 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 33.91%;
+    left: 25.90%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 47.84%;
+}
+
+.screen .text-wrapper-31 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 27.13%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 44.78%;
+    white-space: nowrap;
+    width: 97.84%;
+}
+
+.screen .text-wrapper-32 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    height: 27.13%;
+    left: 7.91%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 72.87%;
+    white-space: nowrap;
+    width: 82.01%;
+}
+
+.screen .group-12 {
+    display: flex;
+    height: 0;
+    left: 22.71%;
+    position: absolute;
+    top: 71.75%;
+    width: 54.93%;
+}
+
+.screen .text-wrapper-33 {
+    color: #6e3f5b;
+    flex: 1;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    width: 767px;
+}
+
+.screen .rectangle-3 {
+    background-color: #f2e4e580;
+    border: 1px solid;
+    border-color: #6e3f5b;
+    border-radius: 13px;
+    height: 82px;
+    left: 347px;
+    position: absolute;
+    top: 5244px;
+    width: 723px;
+}
+
+.screen .text-wrapper-34 {
+    -webkit-text-stroke: 0.87px #6e3f5b;
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 0;
+    left: 25.07%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 93.92%;
+    white-space: nowrap;
+    width: 50.93%;
+}
+
+.screen .yeseva-one-2 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    height: 0;
+    left: 41.79%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 21.48%;
+    white-space: nowrap;
+    width: 15.93%;
+}
+
+.screen .vector-wrapper {
+    display: flex;
+    height: 351px;
+    left: 130px;
+    position: absolute;
+    top: 5382px;
+    width: 329px;
+}
+
+.screen .vector-11 {
+    height: 228.18px;
+    width: 329.41px;
+}
+
+.screen .vector-12 {
+    height: 380px;
+    left: 0;
+    position: absolute;
+    top: 5230px;
+    width: 168px;
+}
+
+.screen .mask-group {
+    height: 396px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1400px;
+}
+
+.screen .group-13 {
+    height: 294px;
+    left: 375px;
+    position: absolute;
+    top: 3689px;
+    width: 1025px;
+}
+
+.screen .text-wrapper-35 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 541px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4184px;
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-36 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 335px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4230px;
+}
+
+.screen .text-wrapper-37 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 410px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4560px;
+}
+
+.screen .text-wrapper-38 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 598px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4354px;
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-39 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 423px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4396px;
+    width: 553px;
+}
+
+.screen .group-14 {
+    height: 346px;
+    left: 3px;
+    position: absolute;
+    top: 5264px;
+    width: 424px;
+}
+
+.screen .text-wrapper-40 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3976px;
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-41 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 1193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3976px;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-42 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 1193px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4691px;
+    transform: rotate(180deg);
+    white-space: nowrap;
+}
+
+.screen .text-wrapper-43 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 54px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4691px;
+    white-space: nowrap;
+}
+
+.screen .group-15 {
+    display: flex;
+    gap: 919px;
+    height: 312px;
+    left: 91px;
+    position: absolute;
+    top: 1521px;
+    width: 1229px;
+}
+
+.screen .img-6 {
+    height: 312px;
+    width: 155px;
+}
+
+.screen .group-16 {
+    display: flex;
+    gap: 949.6px;
+    height: 351px;
+    left: 54px;
+    position: absolute;
+    top: 4249px;
+    width: 1298px;
+}
+
+.screen .img-7 {
+    height: 351px;
+    width: 174.38px;
+}
+
+.screen .text-wrapper-44 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 91.4px;
+    font-weight: 400;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4899px;
+    white-space: nowrap;
+}
+
+.screen .mask-group-2 {
+    height: 163px;
+    left: 0;
+    position: absolute;
+    top: 970px;
+    width: 1400px;
+}
+
+.screen .text-wrapper-45 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 0;
+    left: 24.43%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 91.41%;
+    width: 52.14%;
+}
+
+.screen .text-wrapper-46 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 0;
+    left: 24.36%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 39.14%;
+    width: 52.29%;
+}
+
+.screen .vector-13 {
+    height: 183px;
+    left: 1167px;
+    position: absolute;
+    top: 1852px;
+    width: 183px;
+}
+
+.screen .vector-14 {
+    height: 183px;
+    left: 54px;
+    position: absolute;
+    top: 1852px;
+    width: 183px;
+}
+
+.screen .vector-15 {
+    height: 184px;
+    left: 1162px;
+    position: absolute;
+    top: 1134px;
+    width: 184px;
+}
+
+.screen .vector-16 {
+    height: 184px;
+    left: 54px;
+    position: absolute;
+    top: 1134px;
+    width: 184px;
+}
+
+.screen .vector-17 {
+    height: 184px;
+    left: 611px;
+    position: absolute;
+    top: 4665px;
+    width: 184px;
+}
+
+.screen .group-17 {
+    height: 530px;
+    left: 1087px;
+    position: absolute;
+    top: 5080px;
+    width: 312px;
+}
+
+.screen .yeseva-one-3 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    height: 0;
+    left: 42.57%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 90.25%;
+    white-space: nowrap;
+    width: 15.93%;
+}
+
+.screen .group-18 {
+    display: flex;
+    height: 200px;
+    left: 1185px;
+    position: absolute;
+    top: 2041px;
+    width: 116px;
+}
+
+.screen .group-19 {
+    flex: 1;
+    position: relative;
+    width: 120px;
+}
+
+.screen .text-wrapper-47 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 74.00%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 65.00%;
+}
+
+.screen .text-wrapper-48 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 74.00%;
+    left: 31.67%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26.00%;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 65.00%;
+}
+
+.screen .group-20 {
+    display: flex;
+    height: 200px;
+    left: 114px;
+    position: absolute;
+    top: 2041px;
+    transform: rotate(180deg);
+    width: 116px;
+}
+
+.screen .text-wrapper-49 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 74.00%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26.00%;
+    white-space: nowrap;
+    width: 65.00%;
+}
+
+.screen .text-wrapper-50 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 74.00%;
+    left: 31.67%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 65.00%;
+}
+
+.screen .group-21 {
+    display: flex;
+    height: 136px;
+    left: 1230px;
+    position: absolute;
+    top: 956px;
+    width: 77px;
+}
+
+.screen .text-wrapper-51 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 136.24px;
+    letter-spacing: 0;
+    line-height: normal;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 75px;
+}
+
+.screen .group-22 {
+    display: flex;
+    height: 136px;
+    left: 165px;
+    position: absolute;
+    top: 956px;
+    width: 77px;
+}
+
+.screen .group-23 {
+    display: flex;
+    height: 136px;
+    left: 1184px;
+    position: absolute;
+    top: 956px;
+    transform: rotate(180deg);
+    width: 77px;
+}
+
+.screen .text-wrapper-52 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 136.24px;
+    letter-spacing: 0;
+    line-height: normal;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    width: 75px;
+}
+
+.screen .group-24 {
+    display: flex;
+    height: 136px;
+    left: 119px;
+    position: absolute;
+    top: 956px;
+    transform: rotate(180deg);
+    width: 77px;
+}
+
+.screen .text-wrapper-53 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2273px;
+    transform: rotate(180deg);
+    width: 261px;
+}
+
+.screen .text-wrapper-54 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2742px;
+    transform: rotate(180deg);
+    width: 261px;
+}
+
+.screen .text-wrapper-55 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 1112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2273px;
+    width: 261px;
+}
+
+.screen .text-wrapper-56 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 1112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2742px;
+    width: 261px;
+}
+
+.screen .text-wrapper-57 {
+    color: #8eae6e;
+    font-family: "Ornament-Regular", Helvetica;
+    font-size: 150px;
+    font-weight: 400;
+    left: 825px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2297px;
+    transform: rotate(180deg);
+    width: 261px;
+}
+
+.screen .div-2 {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 417px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3150px;
+    white-space: nowrap;
+}
+
+.screen .span {
+    color: #6e3f5b;
+    font-family: "Yeseva One-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.screen .img-8 {
+    height: 193px;
+    left: 923px;
+    position: absolute;
+    top: 3196px;
+    width: 389px;
+}
+
+.screen .img-9 {
+    height: 320px;
+    left: 54px;
+    position: absolute;
+    top: 3210px;
+    width: 159px;
+}
+
+.screen .img-10 {
+    height: 320px;
+    left: 53px;
+    position: absolute;
+    top: 3575px;
+    width: 159px;
+}
+
+.screen .img-11 {
+    height: 272px;
+    left: 1220px;
+    position: absolute;
+    top: 3294px;
+    width: 135px;
+}
+
+.screen .vector-18 {
+    height: 155px;
+    left: 1185px;
+    position: absolute;
+    top: 3580px;
+    width: 155px;
+}
+
+.screen .vector-19 {
+    height: 183px;
+    left: 50px;
+    position: absolute;
+    top: 1318px;
+    width: 183px;
+}
+
+.screen .vector-20 {
+    height: 183px;
+    left: 1166px;
+    position: absolute;
+    top: 1318px;
+    width: 183px;
 }
