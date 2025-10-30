@@ -1,93 +1,138 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yeseva One Макет</title>
-
-  <!-- Подключаем шрифт -->
-  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-
-<body>
-
-  <!-- ВЕРХНИЙ КРУГ -->
-  <div class="circle top-circle">
-    <p class="circle-title">Приглашение на презентацию</p>
-    <p class="circle-main">ESL One</p>
-    <p class="circle-sub">Ivan & Eva</p>
-  </div>
-
-  <!-- Маска и фон -->
-  <img src="images/mask-group.png" alt="Mask" class="mask-group">
-  <img src="images/image.png" alt="Top image" class="top-image">
-
-  <!-- Семейное Древо -->
-  <div class="family-tree">
-    <div class="tree-box"></div>
-    <!-- corner images -->
-    <img src="images/vector12.svg" class="corner-image top-right">
-    <img src="images/vector13.svg" class="corner-image top-left">
-    <img src="images/vector14.svg" class="corner-image bottom-right">
-    <img src="images/vector15.svg" class="corner-image bottom-left">
-  </div>
-
-  <!-- Основные тексты -->
-  <p class="text-block main-text" style="top:1271px; left:283px;">
-    Шрифт, рожденный из каллиграфии и современного <br>почерка для трогательных моментов
+<!-- Семейное Древо / Family Tree Section -->
+<div class="family-tree bg-pink rounded-large border-large">
+  <p class="intro-text">
+    Шрифт, рожденный из каллиграфии и современного почерка для трогательных моментов
   </p>
 
-  <div class="text-block header-large" style="top:37%; left:21.29%; width:58.14%;">
+  <div class="title">
     Семейное Древо
   </div>
 
-  <div class="text-block header-large" style="top:54%; left:11.5%; width:77.71%;">
-    Меню и типографика
+  <!-- FamilyTreeSection компонент -->
+  <div id="family-tree-section">
+    <!-- сюда будет содержимое FamilyTreeSection -->
   </div>
+</div>
+<!-- Меню банкета / Menu Section -->
+<div class="menu-section">
+  <!-- Заголовки категорий -->
+  <div class="menu-category">Закуски</div>
+  <div class="menu-category">Основные</div>
+  <div class="menu-category">Десерты</div>
 
-  <!-- Демо текст -->
-  <p class="text-block demo-text" style="top:3150px; left:417px;">
-    <span>Д</span><span>емонстрация шрифтовых решений</span>
-  </p>
+  <!-- Элементы внутри категорий -->
+  <div class="menu-item">Тар-тар из тунца</div>
+  <div class="menu-item">Салат с киноа</div>
+  <div class="menu-item">Филе миньон</div>
+  <div class="menu-item">Рататуй</div>
+  <div class="menu-item">Шоколадный фондан</div>
+  <div class="menu-item">Лимонный сорбет</div>
+</div>
 
-  <!-- Меню банкета -->
-  <p class="text-block" style="top:3328px; left:305px;">
-    Меню банкета
-  </p>
+<!-- Секция "Оттенок любви" -->
+<div class="stages-section">
+  <h2>Оттенок любви</h2>
+</div>
 
-  <!-- Нежность линий -->
-  <p class="text-block" style="top:4184px; left:541px;">
-    Нежность линий
-  </p>
+<!-- Декоративный блок -->
+<div class="decorative-box"></div>
 
-  <p class="text-block" style="top:4230px; left:335px;">
-    В каждом изгибе — дыхание любви, <br>в каждом штрихе — прикосновение вечности.
-  </p>
+<!-- Ссылка на демо-пак и кастомизацию -->
+<p class="demo-link">Скачать демо-пак | Заказать кастомизацию</p>
 
-  <p class="text-block" style="top:4560px; left:410px;">
-    Этот шрифт создан не для скорости, <br>а для слов, сказанных с чувством.
-  </p>
+<!-- Логотип / текст YESEVA ONE -->
+<div class="logo-text">YESEVA ONE</div>
+<!-- Typography Section -->
+<TypographySection />
 
-  <p class="text-block" style="top:4396px; left:423px; width:553px;">
-    Соединяет классику и эмоцию, <br>как встречаются взгляды под звуки вальса.
-  </p>
+<!-- Декоративные SVG -->
+<img class="decor-vector" src="images/vector70.svg" alt="Vector" />
+<img class="decor-vector" src="images/vector71.svg" alt="Vector" />
 
-  <p class="text-block thank-you" style="top:4899px; left:85px;">
-    Спасибо, что были с нами
-  </p>
+<!-- Фоновая маска -->
+<img class="mask-group" src="images/mask-group.png" alt="Mask group" />
 
-  <p class="text-block bottom-text" style="top:93.92%; left:25.07%;">
-    Скачать демо-пак | Заказать кастомизацию
-  </p>
+<!-- Группы изображений -->
+<img class="group" src="images/group7.png" alt="Group" />
+<img class="group" src="images/group3.png" alt="Group" />
 
-  <!-- Декоративные буквы D -->
-  <div class="decor-letter" style="top:3976px; left:54px;">D</div>
-  <div class="decor-letter rotate" style="top:3976px; left:1193px;">D</div>
-  <div class="decor-letter rotate" style="top:4691px; left:1193px;">D</div>
-  <div class="decor-letter" style="top:4691px; left:54px;">D</div>
+<!-- Меню секция -->
+<MenuSection />
 
-</body>
+<!-- Заголовки и тексты -->
+<div class="section-title">Нежность линий</div>
+<p class="section-text">
+  В каждом изгибе — дыхание любви, <br />
+  в каждом штрихе — прикосновение вечности.
+</p>
+<p class="section-text">
+  Этот шрифт создан не для скорости, <br />
+  а для слов, сказанных с чувством.
+</p>
+<div class="section-subtitle">Yeseva One</div>
+<p class="section-text">
+  Соединяет классику и эмоцию, <br />
+  как встречаются взгляды под звуки вальса.
+</p>
 
-</html>
+<!-- Декоративные буквы -->
+<div class="decor-letter">D</div>
+<!-- повторить для остальных decorativeLetters -->
+
+<!-- Ряды изображений -->
+<div class="image-row">
+  <img src="images/image9.svg" alt="Img" />
+  <img src="images/image10.svg" alt="Img" />
+</div>
+
+<div class="image-row">
+  <img src="images/image11.svg" alt="Img" />
+  <img src="images/image12.svg" alt="Img" />
+</div>
+
+<!-- Большие надписи -->
+<p class="thank-you">Спасибо, что были с нами</p>
+
+<!-- Дополнительные фоны -->
+<img class="mask-top" src="images/image1.png" alt="Mask group" />
+
+<!-- Заключительные тексты -->
+<p class="final-text">Шрифт для самых трогательных моментов</p>
+
+<ThankYouSection />
+<!-- Угловые декоративные изображения -->
+<div class="corner-images">
+  <img src="images/vector12.svg" alt="Vector" />
+  <img src="images/vector13.svg" alt="Vector" />
+  <img src="images/vector14.svg" alt="Vector" />
+  <img src="images/vector15.svg" alt="Vector" />
+  <img src="images/vector17.svg" alt="Vector" />
+  <img src="images/group49.png" alt="Group" />
+</div>
+
+<!-- Надпись YESEVA ONE -->
+<div class="logo-text">YESEVA ONE</div>
+
+<!-- Большие буквы "a" и "s" -->
+<div class="decor-letter a-letter">a</div>
+<div class="decor-letter a-letter rotate-180">a</div>
+<div class="decor-letter s-letter rotate-180">s</div>
+<div class="decor-letter s-letter -rotate-180">s</div>
+
+<!-- Стрелки Ornament -->
+<div class="ornament-arrow">&gt;</div>
+<div class="ornament-arrow rotate-180">&gt;</div>
+<!-- Демонстрация шрифтовых решений -->
+<p class="font-demo">
+  <span class="letter-d">Д</span>
+  <span class="text-demo">емонстрация шрифтовых решений</span>
+</p>
+
+<!-- Изображения -->
+<img class="decor-img" src="images/image2.svg" alt="Img" />
+<img class="decor-img" src="images/image3.svg" alt="Img" />
+<img class="decor-img" src="images/image4.svg" alt="Img" />
+<img class="decor-img" src="images/image.png" alt="Img" />
+<img class="decor-img" src="images/vector16.svg" alt="Vector" />
+<img class="corner-img" src="images/vector19.svg" alt="Vector" />
+<img class="corner-img" src="images/vector18.svg" alt="Vector" />
